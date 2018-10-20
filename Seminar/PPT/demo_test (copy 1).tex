@@ -10,7 +10,7 @@
 \usepgfplotslibrary{dateplot}
 
 \usepackage{xspace}
-\newcommand{\themename}{\textbf{\textsc{IoT}}\xspace}
+\newcommand{\themename}{\textbf{\textsc{metropolis}}\xspace}
 
 \title{Securing IOT deviceses using Blockchsin}
 \subtitle{A modern beamer theme}
@@ -30,124 +30,73 @@
 
 \section{Introduction}
 
-\begin{frame}[fragile]{What do IOT  mean?}
-\metroset{block=fill}
-      \begin{block}{Definition}
-	The internet of things is a system of interrelated computing devices that are provided with unique identifiers (UIDs) and the ability to transfer data over a network without requiring human-to-human or human-to-computer interaction.
-	\end{block}
-	IoT architecture can be represented by four building blocks:
+\begin{frame}[fragile]{Metropolis}
+
+  The \themename theme is a Beamer theme with minimal visual noise
+  inspired by the \href{https://github.com/hsrmbeamertheme/hsrmbeamertheme}{\textsc{hsrm} Beamer
+  Theme} by Benjamin Weiss.
+
+  Enable the theme by loading
+
+  \begin{verbatim}    \documentclass{beamer}
+    \usetheme{metropolis}\end{verbatim}
+
+  Note, that you have to have Mozilla's \emph{Fira Sans} font and XeTeX
+  installed to enjoy this wonderful typography.
+\end{frame}
+\begin{frame}[fragile]{Sections}
+  Sections group slides of the same topic
+
+  \begin{verbatim}    \section{Elements}\end{verbatim}
+
+  for which \themename provides a nice progress indicator \ldots
+\end{frame}
+
+\section{Title formats}
+
+\begin{frame}{Metropolis title formats}
+	\themename supports 4 different title formats:
 	\begin{itemize}
-		\item \textsc{Things}
-		\item \textsc{Gateways}
-		\item \textsc{Network infrastructure}
-		\item \textsc{Cloud infrastructure}
+		\item Regular
+		\item \textsc{Small caps}
+		\item \textsc{all small caps}
+		\item ALL CAPS
 	\end{itemize}
-
-
-
- % \begin{verbatim}    \documentclass{beamer}
-  %  \usetheme{metropolis}
-   % \end{verbatim}
-
+	They can either be set at once for every title type or individually.
 \end{frame}
-
-\begin{frame}{Figures 1}
-  \begin{figure}  
-	\includegraphics[width=7cm]{iot_struct}    
-    \caption{building blocks of IoT}  \end{figure}
-\end{frame}
-
-\section{Challenges}
-
-\begin{frame}[fragile]{Challenges to secure IoT deployments}
-	\begin{itemize}
-		\item \texttt{\textbf{\themename Systems are poorly designed}}
-		\item \texttt{\textbf{complex and
-sometimes conflicting configurations}}
-		\item \texttt{\textbf{Limited guidance for life cycle maintenance and management of IoT devices}}
-		\item \texttt{\textbf{There is a lack of standards for authentication and authorization of IoT edge devices.}}
-				\item \texttt{\textbf{denial-of-sleep attacks}}
-		\item \texttt{\textbf{denial-of-service attacks (DoS) attacks}}
-	\end{itemize}
-\end{frame}
-
-
-\begin{frame}[fragile]{Problem with current centralized model}
-	\begin{itemize}
-		\item \texttt{\textbf{Current IoT ecosystems rely on centralized, brokered communication models.}}
-		\item \texttt{\textbf{Existing IoT solutions are expensive.}}
-		\item \texttt{\textbf{Lack of security has made users loose trust on the data sharing system.}}
-		\item \texttt{\textbf{No relaible way to ensure security of collected data.}}
-				\item \texttt{\textbf{Cloud
-servers will remain a bottleneck and point of
-failure that can disrupt the entire network.}}
-
-	\end{itemize}
-\end{frame}
-
-\section{Solution using decentralization}
 
 {
     \metroset{titleformat frame=smallcaps}
-\begin{frame}{Decentralizing IoT networks}
+\begin{frame}{Small caps}
+	This frame uses the \texttt{smallcaps} title format.
 
-      A decentralized approach to IoT networking
-would solve many of the issues above.
-
-		\begin{itemize}
-		\item \texttt{\textbf{prevent failure in any single node in a network from bringing the entire network to a
-halting collapse.}}
-		\item \texttt{\textbf{reduce the costs
-associated with installing and maintaining
-large centralized data centers.}}
-		\item \texttt{\textbf{IoT security is much
-more than just about protecting sensitive data.}}
-
-\item \texttt{\textbf{Any decentralized approach must support three
-foundational functions:
-\begin{enumerate}
-\item Peer-to-peer messaging;
-\item Distributed file sharing;
-\item Autonomous device coordination.
-\end{enumerate}
-}}
-
-	\end{itemize}
+	\begin{alertblock}{Potential Problems}
+		Be aware that not every font supports small caps. If for example you typeset your presentation with pdfTeX and the Computer Modern Sans Serif font, every text in small caps will be typeset with the Computer Modern Serif font instead.
+	\end{alertblock}
 \end{frame}
 }
 
 {
+\metroset{titleformat frame=allsmallcaps}
+\begin{frame}{All small caps}
+	This frame uses the \texttt{allsmallcaps} title format.
 
-\begin{frame}{The Blockchain Approach}
-	\texttt{\textbf{\textit{Blockchain distributed ledger technology.}}}
+	\begin{alertblock}{Potential problems}
+		As this title format also uses small caps you face the same problems as with the \texttt{smallcaps} title format. Additionally this format can cause some other problems. Please refer to the documentation if you consider using it.
 
-The data recorded are transparent, secure, auditable, and efficient.
-\metroset{block=fill}
-      \begin{alertblock}{What do blockchain means?}
-        \begin{itemize}
-        \item \texttt{distributed ledger}
-        \item \texttt{maintaining a permanent and tamper-proof record of transactional data.}
-        \item \texttt{Each of the computers in the distributed network maintains a copy of the ledger}
-        \end{itemize}
-      \end{alertblock}
-
+		As a rule of thumb: just use it for plaintext-only titles.
+	\end{alertblock}
 \end{frame}
 }
 
-
 {
-\begin{frame}{Some advantages of blockchain?}
-\begin{itemize}
+\metroset{titleformat frame=allcaps}
+\begin{frame}{All caps}
+	This frame uses the \texttt{allcaps} title format.
 
-\item The big advantage of blockchain is that it's
-public.
-\item A blockchain is decentralized, so there is no
-single authority
-\item Most importantly, it's secure. The database
-can only be extended and previous records
-cannot be changed
-
-\end{itemize}
+	\begin{alertblock}{Potential Problems}
+		This title format is not as problematic as the \texttt{allsmallcaps} format, but basically suffers from the same deficiencies. So please have a look at the documentation if you want to use it.
+	\end{alertblock}
 \end{frame}
 }
 
@@ -207,8 +156,32 @@ or show \textbf{bold} results.\end{verbatim}
     \item And now this
   \end{itemize}
 \end{frame}
-
-
+\begin{frame}{Figures}
+  \begin{figure}
+    \newcounter{density}
+    \setcounter{density}{20}
+    \begin{tikzpicture}
+      \def\couleur{alerted text.fg}
+      \path[coordinate] (0,0)  coordinate(A)
+                  ++( 90:5cm) coordinate(B)
+                  ++(0:5cm) coordinate(C)
+                  ++(-90:5cm) coordinate(D);
+      \draw[fill=\couleur!\thedensity] (A) -- (B) -- (C) --(D) -- cycle;
+      \foreach \x in {1,...,40}{%
+          \pgfmathsetcounter{density}{\thedensity+20}
+          \setcounter{density}{\thedensity}
+          \path[coordinate] coordinate(X) at (A){};
+          \path[coordinate] (A) -- (B) coordinate[pos=.10](A)
+                              -- (C) coordinate[pos=.10](B)
+                              -- (D) coordinate[pos=.10](C)
+                              -- (X) coordinate[pos=.10](D);
+          \draw[fill=\couleur!\thedensity] (A)--(B)--(C)-- (D) -- cycle;
+      }
+    \end{tikzpicture}
+    \caption{Rotated square from
+    \href{http://www.texample.net/tikz/examples/rotated-polygons/}{texample.net}.}
+  \end{figure}
+\end{frame}
 \begin{frame}{Tables}
   \begin{table}
     \caption{Largest cities in the world (source: Wikipedia)}
