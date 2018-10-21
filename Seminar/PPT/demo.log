@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2018.10.3)  20 OCT 2018 07:02
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2018.10.3)  21 OCT 2018 10:16
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1168,7 +1168,7 @@ LaTeX Font Warning: Font shape `OT1/cmss/m/sc' in size <10> not available
 
 ) [4
 
-] <iot_struct.png, id=75, 838.13126pt x 665.48625pt>
+] <iot_struct.png, id=81, 838.13126pt x 665.48625pt>
 File: iot_struct.png Graphic file (type png)
  <use iot_struct.png>
 Package pdftex.def Info: iot_struct.png used on input line 58.
@@ -1225,24 +1225,45 @@ LaTeX Font Info:    Font shape `OT1/cmtt/bx/it' in size <10> not available
 ]
 \openout4 = `demo.vrb'.
 
- (./demo.vrb) [14
+ (./demo.vrb
+<main-chain.png, id=134, 604.2575pt x 272.01625pt>
+File: main-chain.png Graphic file (type png)
+ <use main-chain.png>
+Package pdftex.def Info: main-chain.png used on input line 3.
+(pdftex.def)             Requested size: 312.9803pt x 140.89307pt.
 
-]
+Overfull \hbox (5.69043pt too wide) in paragraph at lines 3--4
+ [] 
+ []
 
-LaTeX Font Warning: Font shape `OT1/cmss/bx/it' undefined
-(Font)              using `OT1/cmss/bx/n' instead on input line 180.
+) [14
 
-[15
+ <./main-chain.png>]
+<blockchain-diagrams-02.jpg, id=141, 144.54pt x 72.27pt>
+File: blockchain-diagrams-02.jpg Graphic file (type jpg)
 
-] [16
+<use blockchain-diagrams-02.jpg>
+Package pdftex.def Info: blockchain-diagrams-02.jpg used on input line 176.
+(pdftex.def)             Requested size: 199.16928pt x 99.58932pt.
+ [15
 
-] [17
+ <./blockchain-diagrams-02.jpg>]
+<block_change_hash.png, id=147, 733.74126pt x 365.365pt>
+File: block_change_hash.png Graphic file (type png)
+
+<use block_change_hash.png>
+Package pdftex.def Info: block_change_hash.png used on input line 194.
+(pdftex.def)             Requested size: 284.52756pt x 141.6834pt.
+ [16
+
+ <./block_change_hash.png>] [17
 
 ] [18
 
 ] [19
 
-] [20
+]
+[20
 
 ] [21
 
@@ -1250,63 +1271,79 @@ LaTeX Font Warning: Font shape `OT1/cmss/bx/it' undefined
 
 ] [23
 
-]
-Missing character: There is no . in font nullfont!
-Missing character: There is no 0 in font nullfont!
-Missing character: There is no 1 in font nullfont!
-Missing character: There is no p in font nullfont!
-Missing character: There is no t in font nullfont!
- [24
+] [24
 
 ] [25
 
 ] [26
 
 ]
-\openout4 = `demo.vrb'.
+<architecture.png, id=209, 496.85625pt x 289.08pt>
+File: architecture.png Graphic file (type png)
+ <use architecture.png>
+Package pdftex.def Info: architecture.png used on input line 233.
+(pdftex.def)             Requested size: 199.16928pt x 115.88136pt.
 
- (./demo.vrb)
 [27
 
-]
-
-LaTeX Warning: Citation `knuth92' on page 28 undefined on input line 321.
-
-
-LaTeX Warning: Citation `ConcreteMath' on page 28 undefined on input line 321.
-
-
-LaTeX Warning: Citation `Simpson' on page 28 undefined on input line 321.
-
-
-LaTeX Warning: Citation `Er01' on page 28 undefined on input line 321.
-
-
-LaTeX Warning: Citation `greenwade93' on page 28 undefined on input line 321.
-
-[28
-
-] [29
+ <./architecture.png>] [28
 
 ]
-LaTeX Font Info:    Font shape `U/ccicons/m/n' will be
-(Font)              scaled to size 20.0pt on input line 337.
- [30
+Missing character: There is no . in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no 1 in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no t in font nullfont!
+ [29
+
+] [30
 
 ] [31
 
 ]
+\openout4 = `demo.vrb'.
+
+ (./demo.vrb) [32
+
+]
+
+LaTeX Warning: Citation `knuth92' on page 33 undefined on input line 292.
+
+
+LaTeX Warning: Citation `ConcreteMath' on page 33 undefined on input line 292.
+
+
+LaTeX Warning: Citation `Simpson' on page 33 undefined on input line 292.
+
+
+LaTeX Warning: Citation `Er01' on page 33 undefined on input line 292.
+
+
+LaTeX Warning: Citation `greenwade93' on page 33 undefined on input line 292.
+
+[33
+
+] [34
+
+]
+LaTeX Font Info:    Font shape `U/ccicons/m/n' will be
+(Font)              scaled to size 20.0pt on input line 308.
+ [35
+
+] [36
+
+]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\translate ' on input line 343.
+(hyperref)                removing `\translate ' on input line 314.
 
 \openout4 = `demo.vrb'.
 
-(./demo.vrb) [32
+(./demo.vrb) [37
 
 ]
 No file demo.bbl.
-[33
+[38
 
 ]
 \tf@nav=\write6
@@ -1318,13 +1355,13 @@ No file demo.bbl.
 \tf@snm=\write8
 \openout8 = `demo.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 363.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 363.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 334.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 334.
  (./demo.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 363.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 363.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 334.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 334.
 Package rerunfilecheck Info: File `demo.out' has not changed.
-(rerunfilecheck)             Checksum: 999B8AF1225791088CFC52ECC0769B84;296.
+(rerunfilecheck)             Checksum: 6BEF5AF522BFBA7AC11D251620EDD52B;377.
 
 
 LaTeX Font Warning: Size substitutions with differences
@@ -1338,33 +1375,31 @@ LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 31336 strings out of 493013
- 762477 string characters out of 6135682
- 967757 words of memory out of 5000000
- 34147 multiletter control sequences out of 15000+600000
- 14911 words of font info for 56 fonts, out of 8000000 for 9000
+ 31359 strings out of 493013
+ 762686 string characters out of 6135682
+ 967758 words of memory out of 5000000
+ 34153 multiletter control sequences out of 15000+600000
+ 15166 words of font info for 57 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  71i,18n,102p,1814b,2114s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/ccicons/ccicons.pfb></usr/s
 hare/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/share/
-texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texliv
-e/texmf-dist/fonts/type1/public/amsfonts/cm/cmitt10.pfb></usr/share/texlive/tex
-mf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist
-/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/share/texlive/texmf-dist/fonts
-/type1/public/amsfonts/cm/cmss12.pfb></usr/share/texlive/texmf-dist/fonts/type1
-/public/amsfonts/cm/cmss8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public
-/amsfonts/cm/cmss9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfon
-ts/cm/cmssbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/c
-m/cmssi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cms
-si8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pf
-b></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr
-/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/
-texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/share/texliv
-e/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt9.pfb>
-Output written on demo.pdf (33 pages, 423581 bytes).
+texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmitt10.pfb></usr/share/texli
+ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/share/texlive/texmf-dist
+/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/share/texlive/texmf-dist/fonts
+/type1/public/amsfonts/cm/cmss8.pfb></usr/share/texlive/texmf-dist/fonts/type1/
+public/amsfonts/cm/cmss9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
+amsfonts/cm/cmssbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsf
+onts/cm/cmssi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/
+cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cms
+y8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb>
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/
+share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt9.pfb>
+Output written on demo.pdf (38 pages, 875532 bytes).
 PDF statistics:
- 318 PDF objects out of 1000 (max. 8388607)
- 255 compressed objects within 3 object streams
- 73 named destinations out of 1000 (max. 500000)
- 96 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 351 PDF objects out of 1000 (max. 8388607)
+ 278 compressed objects within 3 object streams
+ 84 named destinations out of 1000 (max. 500000)
+ 124 words of extra memory for PDF output out of 10000 (max. 10000000)
 

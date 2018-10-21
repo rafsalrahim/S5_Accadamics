@@ -153,117 +153,92 @@ cannot be changed
 
 \section{How does it work?}
 
-\begin{frame}[fragile]{Typography}
-      \begin{verbatim}The theme provides sensible defaults to
-\emph{emphasize} text, \alert{accent} parts
-or show \textbf{bold} results.\end{verbatim}
-
-  \begin{center}becomes\end{center}
-
-  The theme provides sensible defaults to \emph{emphasize} text,
-  \alert{accent} parts or show \textbf{bold} results.
+\begin{frame}[fragile]{Figure 2}
+  \begin{figure}  
+	\includegraphics[width=11cm]{main-chain}    
+    \caption{Blockchain basic image}  %\end{figure:2}
+\end{figure}
 \end{frame}
 
-\begin{frame}{Font feature test}
+\begin{frame}{Block stricture}
+
   \begin{itemize}
-    \item Regular
-    \item \textit{Italic}
-    \item \textsc{Small Caps}
-    \item \textbf{Bold}
-    \item \textbf{\textit{Bold Italic}}
-    \item \textbf{\textsc{Bold Small Caps}}
-    \item \texttt{Monospace}
-    \item \texttt{\textit{Monospace Italic}}
-    \item \texttt{\textbf{Monospace Bold}}
-    \item \texttt{\textbf{\textit{Monospace Bold Italic}}}
-  \end{itemize}
+    \item Block ID
+    \item Timestamp
+    \item Nonce
+    \item Data
+    \item Previous block hash
+   \end{itemize}
+     \begin{figure}  
+	\includegraphics[width=7cm]{blockchain-diagrams-02}    
+    \caption{Block stricture}  %\end{figure:2}
+\end{figure}
 \end{frame}
 
-\begin{frame}{Lists}
-  \begin{columns}[T,onlytextwidth]
-    \column{0.33\textwidth}
-      Items
-      \begin{itemize}
-        \item Milk \item Eggs \item Potatoes
-      \end{itemize}
+%\begin{frame}{Lists}
+ % \begin{columns}[T,onlytextwidth]
+  %  \column{0.33\textwidth}
+ %     Items
+   %   \begin{itemize}
+    %    \item Milk \item Eggs \item Potatoes
+    %  \end{itemize}
+%  \end{columns}
+%\end{frame}
 
-    \column{0.33\textwidth}
-      Enumerations
-      \begin{enumerate}
-        \item First, \item Second and \item Last.
-      \end{enumerate}
+\begin{frame}{Modification of Data}
 
-    \column{0.33\textwidth}
-      Descriptions
-      \begin{description}
-        \item[PowerPoint] Meeh. \item[Beamer] Yeeeha.
-      \end{description}
-  \end{columns}
+     \begin{figure}  
+	\includegraphics[width=10cm]{block_change_hash}    
+    \caption{When Mutation of data happends.} 
+\end{figure}
 \end{frame}
-\begin{frame}{Animation}
+
+%\begin{frame}{Animation}
+ % \begin{itemize}[<+- | alert@+>]
+  %  \item \alert<4>{This is\only<4>{ really} important}
+   % \item Now this
+    %\item And now this
+ % \end{itemize}
+%\end{frame}
+
+\section{How blockchain can be used to secure IoT data.}
+
+\begin{frame}{Trusted Requirements}
+	Iot data as a spacial commodity, collected by government, corporates, even individuals, which are of grate value to different application fields. Such owner need a trusted platform to exchange there IoT data.
+
   \begin{itemize}[<+- | alert@+>]
-    \item \alert<4>{This is\only<4>{ really} important}
-    \item Now this
-    \item And now this
+        \metroset{block=fill}
+     \item[] \begin{exampleblock}{Trusted Trading}
+        \begin{itemize}
+		  \item Transaction once conformed can not be modified.
+		  \item Should not be maintained by a third-party.
+		  \item Exchange data should be transparent.
+ 		\end{itemize}
+      \end{exampleblock}
+         \item[] \begin{exampleblock}{Trusted Data Access}
+			 Data owner can hold their ownership.
+      \end{exampleblock}
+        \item[] \begin{exampleblock}{Trusted Privacy Preserve.}
+        Data owner can protect their personal information while data exchange.
+      \end{exampleblock}
   \end{itemize}
 \end{frame}
 
-
-\begin{frame}{Tables}
-  \begin{table}
-    \caption{Largest cities in the world (source: Wikipedia)}
-    \begin{tabular}{@{} lr @{}}
-      \toprule
-      City & Population\\
-      \midrule
-      Mexico City & 20,116,842\\
-      Shanghai & 19,210,000\\
-      Peking & 15,796,450\\
-      Istanbul & 14,160,467\\
-      \bottomrule
-    \end{tabular}
-  \end{table}
+\begin{frame}{Architecture}
+  The framework can be divided into Data Layer, Network Layer, Protocol Layer and Interaction Layer.
+	\begin{figure}  
+	\includegraphics[width=7cm]{architecture}    
+    \caption{Architecture of blockchain based IoT data exchange platform}
+    \end{figure}
 \end{frame}
-\begin{frame}{Blocks}
-  Three different block environments are pre-defined and may be styled with an
-  optional background color.
-
-  \begin{columns}[T,onlytextwidth]
-    \column{0.5\textwidth}
-      \begin{block}{Default}
-        Block content.
-      \end{block}
-
-      \begin{alertblock}{Alert}
-        Block content.
-      \end{alertblock}
-
-      \begin{exampleblock}{Example}
-        Block content.
-      \end{exampleblock}
-
-    \column{0.5\textwidth}
-
-      \metroset{block=fill}
-
-      \begin{block}{Default}
-        Block content.
-      \end{block}
-
-      \begin{alertblock}{Alert}
-        Block content.
-      \end{alertblock}
-
-      \begin{exampleblock}{Example}
-        Block content.
-      \end{exampleblock}
-
-  \end{columns}
-\end{frame}
-\begin{frame}{Math}
-  \begin{equation*}
-    e = \lim_{n\to \infty} \left(1 + \frac{1}{n}\right)^n
-  \end{equation*}
+\begin{frame}{Data Layer}
+	\begin{itemize}
+		\item Consists of two parts:
+			\begin{itemize}
+			\item IoT data
+			\item Exchange data
+			\end{itemize}
+	\end{itemize}
 \end{frame}
 \begin{frame}{Line plots}
   \begin{figure}
