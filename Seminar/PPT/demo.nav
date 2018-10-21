@@ -64,36 +64,26 @@
 \headcommand {\beamer@framepages {31}{31}}
 \headcommand {\slideentry {6}{0}{3}{32/32}{}{0}}
 \headcommand {\beamer@framepages {32}{32}}
-\headcommand {\slideentry {6}{0}{4}{33/33}{}{0}}
+\headcommand {\sectionentry {7}{Conclusion}{33}{Conclusion}{0}}
+\headcommand {\beamer@sectionpages {30}{32}}
+\headcommand {\beamer@subsectionpages {30}{32}}
+\headcommand {\slideentry {7}{0}{1}{33/33}{}{0}}
 \headcommand {\beamer@framepages {33}{33}}
-\headcommand {\slideentry {6}{0}{5}{34/34}{}{0}}
+\headcommand {\slideentry {7}{0}{2}{34/34}{}{0}}
 \headcommand {\beamer@framepages {34}{34}}
-\headcommand {\slideentry {6}{0}{6}{35/35}{}{0}}
+\headcommand {\slideentry {7}{0}{3}{35/35}{}{0}}
 \headcommand {\beamer@framepages {35}{35}}
-\headcommand {\slideentry {6}{0}{7}{36/36}{}{0}}
-\headcommand {\beamer@framepages {36}{36}}
-\headcommand {\sectionentry {7}{Conclusion}{37}{Conclusion}{0}}
-\headcommand {\beamer@sectionpages {30}{36}}
-\headcommand {\beamer@subsectionpages {30}{36}}
-\headcommand {\slideentry {7}{0}{1}{37/37}{}{0}}
-\headcommand {\beamer@framepages {37}{37}}
-\headcommand {\slideentry {7}{0}{2}{38/38}{}{0}}
-\headcommand {\beamer@framepages {38}{38}}
-\headcommand {\slideentry {7}{0}{3}{39/39}{}{0}}
-\headcommand {\beamer@framepages {39}{39}}
 \headcommand {\partentry {\translate {Appendix}}{1}}
-\headcommand {\beamer@partpages {1}{39}}
-\headcommand {\beamer@sectionpages {37}{39}}
-\headcommand {\beamer@subsectionpages {37}{39}}
-\headcommand {\beamer@appendixpages {40}}
-\headcommand {\slideentry {7}{0}{4}{40/40}{}{1}}
-\headcommand {\beamer@framepages {40}{40}}
-\headcommand {\slideentry {7}{0}{5}{41/41}{}{1}}
-\headcommand {\beamer@framepages {41}{41}}
-\headcommand {\beamer@partpages {40}{41}}
-\headcommand {\beamer@subsectionpages {40}{41}}
-\headcommand {\beamer@sectionpages {40}{41}}
-\headcommand {\beamer@documentpages {41}}
-\headcommand {\def \inserttotalframenumber {2}}
-\headcommand {\def \inserttotalframenumber {22}}
-\headcommand {\def \appendixtotalframenumber {2}}
+\headcommand {\beamer@partpages {1}{35}}
+\headcommand {\beamer@sectionpages {33}{35}}
+\headcommand {\beamer@subsectionpages {33}{35}}
+\headcommand {\beamer@appendixpages {36}}
+\headcommand {\slideentry {7}{0}{4}{36/36}{}{1}}
+\headcommand {\beamer@framepages {36}{36}}
+\headcommand {\beamer@partpages {36}{36}}
+\headcommand {\beamer@subsectionpages {36}{36}}
+\headcommand {\beamer@sectionpages {36}{36}}
+\headcommand {\beamer@documentpages {36}}
+\headcommand {\def \inserttotalframenumber {1}}
+\headcommand {\def \inserttotalframenumber {18}}
+\headcommand {\def \appendixtotalframenumber {1}}

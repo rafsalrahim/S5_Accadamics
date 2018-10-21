@@ -12,10 +12,10 @@
 \usepackage{xspace}
 \newcommand{\themename}{\textbf{\textsc{IoT}}\xspace}
 
-\title{Securing IOT deviceses using Blockchsin}
-\subtitle{A modern beamer theme}
+\title{Securing IOT devices using Blockchain}
+%\subtitle{A modern beamer theme}
 \date{\today}
-\author{Rafsal Rahim}
+\author{Rafsal Rahim \newline TVE16MCA41}
 \institute{Dept. MCA, College of Engineering Trivandrum}
 % \titlegraphic{\hfill\includegraphics[height=1.5cm]{logo.pdf}}
 
@@ -106,8 +106,8 @@ more than just about protecting sensitive data.}}
 \item \texttt{\textbf{Any decentralized approach must support three
 foundational functions:
 \begin{enumerate}
-\item Peer-to-peer messaging;
-\item Distributed file sharing;
+\item Peer-to-peer messaging.
+\item Distributed file sharing.
 \item Autonomous device coordination.
 \end{enumerate}
 }}
@@ -160,7 +160,7 @@ cannot be changed
 \end{figure}
 \end{frame}
 
-\begin{frame}{Block stricture}
+\begin{frame}{Block structure}
 
   \begin{itemize}
     \item Block ID
@@ -171,7 +171,7 @@ cannot be changed
    \end{itemize}
      \begin{figure}  
 	\includegraphics[width=7cm]{blockchain-diagrams-02}    
-    \caption{Block stricture}  %\end{figure:2}
+    \caption{Block structure}  %\end{figure:2}
 \end{figure}
 \end{frame}
 
@@ -189,7 +189,7 @@ cannot be changed
 
      \begin{figure}  
 	\includegraphics[width=10cm]{block_change_hash}    
-    \caption{When Mutation of data happends.} 
+    \caption{When Mutation of data happens.} 
 \end{figure}
 \end{frame}
 
@@ -204,7 +204,7 @@ cannot be changed
 \section{How blockchain can be used to secure IoT data.}
 
 \begin{frame}{Trusted Requirements}
-	Iot data as a spacial commodity, collected by government, corporates, even individuals, which are of grate value to different application fields. Such owner need a trusted platform to exchange there IoT data.
+	IoT data as a spacial commodity, collected by government, corporates, even individuals, which are of greate value to different application fields. Such owner need a trusted platform to exchange there IoT data.
 
   \begin{itemize}[<+- | alert@+>]
         \metroset{block=fill}
@@ -274,55 +274,20 @@ cannot be changed
 			\end{itemize}
 \end{frame}
 
-\begin{frame}{Data Management Contracts}
+\begin{frame}{Data {\&} User Management Contracts}
 	\begin{figure}  
-	\includegraphics[width=9cm]{smatcontract_management}    
+	\includegraphics[width=5cm]{smatcontract_management}    
     \caption{Architecture of smart contract based management component}
     \end{figure}
-    			\begin{itemize}
-			\item Data Contract: Generate a data object conract and call data access contract.  
+     \begin{alertblock}{Data Management Contracts}
+    		\begin{itemize}
+			\item Data Contract: Generate a \emph{data object contract} and \emph{call data access contract}.  
 			\item Classified search Contract: Record the whole communicated process in IoT data exchange for traceability.
 			\end{itemize}
-\end{frame}
-
-\end{frame}
-\begin{frame}{Bar charts}
-  \begin{figure}
-    \begin{tikzpicture}
-      \begin{axis}[
-        mbarplot,
-        xlabel={Foo},
-        ylabel={Bar},
-        width=0.9\textwidth,
-        height=6cm,
-      ]
-
-      \addplot plot coordinates {(1, 20) (2, 25) (3, 22.4) (4, 12.4)};
-      \addplot plot coordinates {(1, 18) (2, 24) (3, 23.5) (4, 13.2)};
-      \addplot plot coordinates {(1, 10) (2, 19) (3, 25) (4, 15.2)};
-
-      \legend{lorem, ipsum, dolor}
-
-      \end{axis}
-    \end{tikzpicture}
-  \end{figure}
-\end{frame}
-\begin{frame}{Quotes}
-  \begin{quote}
-    Veni, Vidi, Vici
-  \end{quote}
-\end{frame}
-
-{%
-\setbeamertemplate{frame footer}{My custom footer}
-\begin{frame}[fragile]{Frame footer}
-    \themename defines a custom beamer template to add a text to the footer. It can be set via
-    \begin{verbatim}\setbeamertemplate{frame footer}{My custom footer}\end{verbatim}
-\end{frame}
-}
-
-\begin{frame}{References}
-  Some references to showcase [allowframebreaks] \cite{knuth92,ConcreteMath,Simpson,Er01,greenwade93}
+		\end{alertblock}
+	\begin{alertblock}{User Management Contracts}
+	Controls the users's security and permissions of the platform. 
+	\end{alertblock}		
 \end{frame}
 
 \section{Conclusion}
@@ -347,16 +312,6 @@ cannot be changed
 
 \appendix
 
-\begin{frame}[fragile]{Backup slides}
-  Sometimes, it is useful to add slides at the end of your presentation to
-  refer to during audience questions.
-
-  The best way to do this is to include the \verb|appendixnumberbeamer|
-  package in your preamble and call \verb|\appendix| before your backup slides.
-
-  \themename will automatically turn off slide numbering and progress bars for
-  slides in the appendix.
-\end{frame}
 
 \begin{frame}[allowframebreaks]{References}
 
