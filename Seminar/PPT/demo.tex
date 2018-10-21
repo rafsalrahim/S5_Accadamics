@@ -231,30 +231,54 @@ cannot be changed
     \caption{Architecture of blockchain based IoT data exchange platform}
     \end{figure}
 \end{frame}
-\begin{frame}{Data Layer}
-	\begin{itemize}
-		\item Consists of two parts:
+\begin{frame}{Layers}
+	\begin{alertblock}{Data Layer}
+		 Consists of multiple network and blockchain network:
 			\begin{itemize}
-			\item IoT data
-			\item Exchange data
+			\item Multiple network is responsible for origin data access and transmission.
+			\item Blockchain network composed of one or more blockchain node.
 			\end{itemize}
-	\end{itemize}
+	\end{alertblock}
+		\begin{alertblock}{Network Layer}
+		 Consists of two parts:
+			\begin{itemize}
+			\item IoT data : Stored in any place the user wants.
+			\item Exchange data : Stored in blockchain.
+			\end{itemize}
+	\end{alertblock}
+
+
 \end{frame}
-\begin{frame}{Line plots}
-  \begin{figure}
-    \begin{tikzpicture}
-      \begin{axis}[
-        mlineplot,
-        width=0.9\textwidth,
-        height=6cm,
-      ]
 
-        \addplot {sin(deg(x))};
-        \addplot+[samples=100] {sin(deg(2*x))};
+\begin{frame}{Layers}
+	\begin{alertblock}{Management Layer}
+		 
+			\begin{itemize}
+			\item Data Management
+			\item User Management
+			\item Exchange Management
+			\end{itemize}
+	\end{alertblock}
+	\begin{alertblock}{Interaction Layer}
+		 Provides the interface for data exchange parties to communicate with each other.
+	\end{alertblock}	 
+\end{frame}
+\section{Component Design}
 
-      \end{axis}
-    \end{tikzpicture}
-  \end{figure}
+\begin{frame}{Exchange Management Contracts}
+	Exchange management contracts include three type protocols:
+			\begin{itemize}
+			\item Access Contract: Uses capability based access control method to provide a trusted data permission management. 
+			\item Communication Contract: Record the whole communicated process in IoT data exchange for traceability.
+			\item Auto Exchange Contract: Send the data access right to demander while they satisfy the condition.
+			\end{itemize}
+\end{frame}
+
+\begin{frame}{Data Management Contracts}
+	\begin{figure}  
+	\includegraphics[width=9cm]{smatcontract_management}    
+    \caption{Architecture of smart contract based management component}
+    \end{figure}
 \end{frame}
 \begin{frame}{Bar charts}
   \begin{figure}

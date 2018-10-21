@@ -3,4 +3,5 @@
 \beamer@sectionintoc {3}{Solution using decentralization}{9}{0}{3}
 \beamer@sectionintoc {4}{How does it work?}{13}{0}{4}
 \beamer@sectionintoc {5}{How blockchain can be used to secure IoT data.}{17}{0}{5}
-\beamer@sectionintoc {6}{Conclusion}{34}{0}{6}
+\beamer@sectionintoc {6}{Component Design}{30}{0}{6}
+\beamer@sectionintoc {7}{Conclusion}{37}{0}{7}
