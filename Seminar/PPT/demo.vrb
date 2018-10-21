@@ -1,5 +1,5 @@
 \frametitle{Figure 2}
 \begin{figure}
-	\includegraphics[width=11cm]{main-chain}
+^^I\includegraphics[width=11cm]{main-chain}
     \caption{Blockchain basic image}  %\end{figure:2}
 \end{figure}
