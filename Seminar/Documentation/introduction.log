@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2018.10.3)  22 OCT 2018 07:56
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2018.10.3)  22 OCT 2018 08:01
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -32974,11 +32974,6 @@ Missing character: There is no e in font nullfont!
 Missing character: There is no n in font nullfont!
 Missing character: There is no t in font nullfont!
 Missing character: There is no s in font nullfont!
-
-Overfull \hbox (20.0pt too wide) in paragraph at lines 417--418
-[]
- []
-
 Missing character: There is no I in font nullfont!
 Missing character: There is no o in font nullfont!
 Missing character: There is no T in font nullfont!
@@ -33267,11 +33262,29 @@ Missing character: There is no i in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no s in font nullfont!
 Missing character: There is no . in font nullfont!
+! Undefined control sequence.
+l.424 \section
+              {Trusted Trading}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 419--425
-[]
- []
-
+Missing character: There is no T in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no T in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no g in font nullfont!
 Missing character: There is no T in font nullfont!
 Missing character: There is no r in font nullfont!
 Missing character: There is no u in font nullfont!
@@ -34330,21 +34343,32 @@ Missing character: There is no o in font nullfont!
 Missing character: There is no r in font nullfont!
 Missing character: There is no m in font nullfont!
 Missing character: There is no . in font nullfont!
+! Undefined control sequence.
+l.448 \section
+              {Trusted Data Access}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
 
-Overfull \hbox (38.83452pt too wide) in paragraph at lines 426--450
-\OT1/cmr/bx/n/10 Trusted
- []
-
-
-Overfull \hbox (27.59012pt too wide) in paragraph at lines 426--450
-\OT1/cmr/bx/n/10 Trad-
- []
-
-
-Overfull \hbox (15.33325pt too wide) in paragraph at lines 426--450
-\OT1/cmr/bx/n/10 ing
- []
-
+Missing character: There is no T in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no D in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no A in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no s in font nullfont!
 Missing character: There is no T in font nullfont!
 Missing character: There is no r in font nullfont!
 Missing character: There is no u in font nullfont!
@@ -35174,26 +35198,37 @@ Missing character: There is no e in font nullfont!
 Missing character: There is no n in font nullfont!
 Missing character: There is no t in font nullfont!
 Missing character: There is no . in font nullfont!
+! Undefined control sequence.
+l.466 \section
+              {Trusted Privacy Preserve}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
 
-Overfull \hbox (38.83452pt too wide) in paragraph at lines 450--468
-\OT1/cmr/bx/n/10 Trusted
- []
-
-
-Overfull \hbox (24.47205pt too wide) in paragraph at lines 450--468
-\OT1/cmr/bx/n/10 Data
- []
-
-
-Overfull \hbox (17.6388pt too wide) in paragraph at lines 450--468
-\OT1/cmr/bx/n/10 Ac-
- []
-
-
-Overfull \hbox (19.45404pt too wide) in paragraph at lines 450--468
-\OT1/cmr/bx/n/10 cess
- []
-
+Missing character: There is no T in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no P in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no v in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no y in font nullfont!
+Missing character: There is no P in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no v in font nullfont!
+Missing character: There is no e in font nullfont!
 Missing character: There is no T in font nullfont!
 Missing character: There is no r in font nullfont!
 Missing character: There is no u in font nullfont!
@@ -35855,44 +35890,19 @@ Missing character: There is no e in font nullfont!
 Missing character: There is no d in font nullfont!
 Missing character: There is no . in font nullfont!
 
-Overfull \hbox (38.83452pt too wide) in paragraph at lines 468--484
-\OT1/cmr/bx/n/10 Trusted
- []
-
-
-Overfull \hbox (19.62491pt too wide) in paragraph at lines 468--484
-\OT1/cmr/bx/n/10 Pri-
- []
-
-
-Overfull \hbox (22.20125pt too wide) in paragraph at lines 468--484
-\OT1/cmr/bx/n/10 vacy
- []
-
-
-Overfull \hbox (21.7013pt too wide) in paragraph at lines 468--484
-\OT1/cmr/bx/n/10 Pre-
- []
-
-
-Overfull \hbox (25.56377pt too wide) in paragraph at lines 468--484
-\OT1/cmr/bx/n/10 serve
+Overfull \hbox (20.0pt too wide) in paragraph at lines 417--482
+[]
  []
 
 ! Undefined control sequence.
-l.486 \chapter
-              { DROPS Architecture}
+l.484 \chapter
+              { Architecture}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-Missing character: There is no D in font nullfont!
-Missing character: There is no R in font nullfont!
-Missing character: There is no O in font nullfont!
-Missing character: There is no P in font nullfont!
-Missing character: There is no S in font nullfont!
 Missing character: There is no A in font nullfont!
 Missing character: There is no r in font nullfont!
 Missing character: There is no c in font nullfont!
@@ -35906,8 +35916,8 @@ Missing character: There is no u in font nullfont!
 Missing character: There is no r in font nullfont!
 Missing character: There is no e in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 486--487
-[]
+Overfull \hbox (20.0pt too wide) in paragraph at lines 484--485
+[] 
  []
 
 Missing character: There is no T in font nullfont!
@@ -35945,7 +35955,7 @@ Missing character: There is no e in font nullfont!
 Missing character: There is no s in font nullfont!
 Missing character: There is no : in font nullfont!
 ! Undefined control sequence.
-l.489 \section
+l.487 \section
               {Cloud Client}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -35965,7 +35975,7 @@ Missing character: There is no e in font nullfont!
 Missing character: There is no n in font nullfont!
 Missing character: There is no t in font nullfont!
 ! Undefined control sequence.
-l.490 \paragraph
+l.488 \paragraph
                 *{}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -36014,7 +36024,7 @@ Missing character: There is no e in font nullfont!
 Missing character: There is no r in font nullfont!
 Missing character: There is no . in font nullfont!
 ! Undefined control sequence.
-l.492 \subsection
+l.490 \subsection
                  {Data Owner}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -36032,7 +36042,7 @@ Missing character: There is no n in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no r in font nullfont!
 ! Undefined control sequence.
-l.493 \paragraph
+l.491 \paragraph
                 *{}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -36213,7 +36223,7 @@ Missing character: There is no u in font nullfont!
 Missing character: There is no d in font nullfont!
 Missing character: There is no . in font nullfont!
 ! Undefined control sequence.
-l.495 \subsection
+l.493 \subsection
                  {Data User}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -36230,7 +36240,7 @@ Missing character: There is no s in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no r in font nullfont!
 ! Undefined control sequence.
-l.496 \paragraph
+l.494 \paragraph
                 *{}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -36406,7 +36416,7 @@ Missing character: There is no e in font nullfont!
 Missing character: There is no r in font nullfont!
 Missing character: There is no . in font nullfont!
 ! Undefined control sequence.
-l.498 \section
+l.496 \section
               {Cloud Server}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -36426,7 +36436,7 @@ Missing character: There is no v in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no r in font nullfont!
 ! Undefined control sequence.
-l.499 \subsection
+l.497 \subsection
                  {Fragmentation}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -36448,7 +36458,7 @@ Missing character: There is no i in font nullfont!
 Missing character: There is no o in font nullfont!
 Missing character: There is no n in font nullfont!
 ! Undefined control sequence.
-l.500 \paragraph
+l.498 \paragraph
                 *{}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -36621,12 +36631,12 @@ Missing character: There is no u in font nullfont!
 Missing character: There is no t in font nullfont!
 Missing character: There is no . in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 488--502
+Overfull \hbox (20.0pt too wide) in paragraph at lines 486--500
 []
  []
 
 ! Undefined control sequence.
-l.503 \subsection
+l.501 \subsection
                  {Replication}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -36646,7 +36656,7 @@ Missing character: There is no i in font nullfont!
 Missing character: There is no o in font nullfont!
 Missing character: There is no n in font nullfont!
 ! Undefined control sequence.
-l.504 \paragraph
+l.502 \paragraph
                 *{}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -37014,12 +37024,12 @@ Missing character: There is no u in font nullfont!
 Missing character: There is no t in font nullfont!
 Missing character: There is no . in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 503--510
+Overfull \hbox (20.0pt too wide) in paragraph at lines 501--508
 []
  []
 
 ! Undefined control sequence.
-l.511 \subsection
+l.509 \subsection
                  {Allocation}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -37038,7 +37048,7 @@ Missing character: There is no i in font nullfont!
 Missing character: There is no o in font nullfont!
 Missing character: There is no n in font nullfont!
 ! Undefined control sequence.
-l.512 \paragraph
+l.510 \paragraph
                 *{}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -37426,12 +37436,12 @@ Missing character: There is no r in font nullfont!
 Missing character: There is no s in font nullfont!
 Missing character: There is no . in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 511--519
+Overfull \hbox (20.0pt too wide) in paragraph at lines 509--517
 []
  []
 
 ! Undefined control sequence.
-l.520 \section
+l.518 \section
               {Admin}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -37445,7 +37455,7 @@ Missing character: There is no m in font nullfont!
 Missing character: There is no i in font nullfont!
 Missing character: There is no n in font nullfont!
 ! Undefined control sequence.
-l.521 \paragraph
+l.519 \paragraph
                 *{}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -37609,7 +37619,7 @@ Missing character: There is no o in font nullfont!
 Missing character: There is no n in font nullfont!
 Missing character: There is no . in font nullfont!
 ! Undefined control sequence.
-l.525 \section
+l.523 \section
               {Fragment Placement}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -37635,7 +37645,7 @@ Missing character: There is no e in font nullfont!
 Missing character: There is no n in font nullfont!
 Missing character: There is no t in font nullfont!
 ! Undefined control sequence.
-l.526 \paragraph
+l.524 \paragraph
                 *{}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -38230,14 +38240,14 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.536 \begin{figure}
+l.534 \begin{figure}
                     
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 ! Undefined control sequence.
-l.538 	\includegraphics
+l.536 	\includegraphics
                        [scale=0.5]{placementalgo}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -38276,7 +38286,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.540 	\caption
+l.538 	\caption
                {Algorithm for Fragment Placement}
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -38317,19 +38327,19 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.541 \end{figure}
+l.539 \end{figure}
                   
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 520--542
+Overfull \hbox (20.0pt too wide) in paragraph at lines 518--540
 []
  []
 
 ! Undefined control sequence.
-l.543 \paragraph
+l.541 \paragraph
                 *{}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -38339,7 +38349,7 @@ and I'll forget about whatever was undefined.
 
 Missing character: There is no * in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 543--544
+Overfull \hbox (20.0pt too wide) in paragraph at lines 541--542
 [] 
  []
 
@@ -38972,7 +38982,7 @@ Missing character: There is no g in font nullfont!
 Missing character: There is no y in font nullfont!
 Missing character: There is no . in font nullfont!
 ! Undefined control sequence.
-l.554 \section
+l.552 \section
               {Fragment Replication}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -39000,7 +39010,7 @@ Missing character: There is no i in font nullfont!
 Missing character: There is no o in font nullfont!
 Missing character: There is no n in font nullfont!
 ! Undefined control sequence.
-l.555 \paragraph
+l.553 \paragraph
                 *{}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -39448,7 +39458,7 @@ Missing character: There is no f in font nullfont!
 Missing character: There is no f in font nullfont!
 Missing character: There is no . in font nullfont!
 ! Undefined control sequence.
-l.562 \paragraph
+l.560 \paragraph
                 *{}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -39928,14 +39938,14 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.570 \begin{figure}
+l.568 \begin{figure}
                     
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 ! Undefined control sequence.
-l.572 	\includegraphics
+l.570 	\includegraphics
                        [scale=0.5]{replicationalgo}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -39976,7 +39986,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.573 	\caption
+l.571 	\caption
                {Algorithm for Fragment Replication}
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -40019,14 +40029,14 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.574 \end{figure}
+l.572 \end{figure}
                   
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 ! Undefined control sequence.
-l.575 \section
+l.573 \section
               {Replication Time}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -40050,7 +40060,7 @@ Missing character: There is no i in font nullfont!
 Missing character: There is no m in font nullfont!
 Missing character: There is no e in font nullfont!
 ! Undefined control sequence.
-l.576 \paragraph
+l.574 \paragraph
                 *{}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -40245,12 +40255,12 @@ Missing character: There is no t in font nullfont!
 Missing character: There is no s in font nullfont!
 Missing character: There is no . in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 545--580
+Overfull \hbox (20.0pt too wide) in paragraph at lines 543--578
 []
  []
 
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 581--581
+Overfull \hbox (20.0pt too wide) in paragraph at lines 579--579
 [] 
  []
 
@@ -40314,7 +40324,7 @@ Missing character: There is no b in font nullfont!
 Missing character: There is no y in font nullfont!
 Missing character: There is no : in font nullfont!
 
-Overfull \hbox (87.12018pt too wide) detected at line 583
+Overfull \hbox (87.12018pt too wide) detected at line 581
 \OML/cmm/m/it/10 R[] \OT1/cmr/m/n/10 = \OML/cmm/m/it/10 r[]o[]c\OT1/cmr/m/n/10 
 (\OML/cmm/m/it/10 i; NN[]\OT1/cmr/m/n/10 )
  []
@@ -40401,7 +40411,7 @@ Missing character: There is no e in font nullfont!
 Missing character: There is no n in font nullfont!
 Missing character: There is no : in font nullfont!
 
-Overfull \hbox (177.62656pt too wide) detected at line 588
+Overfull \hbox (177.62656pt too wide) detected at line 586
 \OML/cmm/m/it/10 W[] \OT1/cmr/m/n/10 = \OML/cmm/m/it/10 w[]o[]\OT1/cmr/m/n/10 (
 \OML/cmm/m/it/10 c\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 i; P[]\OT1/cmr/m/n/10 ) + [
 ] \OML/cmm/m/it/10 c\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 P[]; j\OT1/cmr/m/n/10 ))
@@ -40436,7 +40446,7 @@ Missing character: There is no b in font nullfont!
 Missing character: There is no y in font nullfont!
 Missing character: There is no : in font nullfont!
 
-Overfull \hbox (101.3256pt too wide) detected at line 592
+Overfull \hbox (101.3256pt too wide) detected at line 590
 \OML/cmm/m/it/10 RT \OT1/cmr/m/n/10 = [] [](\OML/cmm/m/it/10 R[] \OT1/cmr/m/n/1
 0 + \OML/cmm/m/it/10 W[]\OT1/cmr/m/n/10 )
  []
@@ -40732,7 +40742,7 @@ Missing character: There is no e in font nullfont!
 Missing character: There is no r in font nullfont!
 Missing character: There is no . in font nullfont!
 ! Undefined control sequence.
-l.598 \section
+l.596 \section
               {Features of DROPS}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
