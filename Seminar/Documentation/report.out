@@ -1,0 +1,27 @@
+\BOOKMARK [0][-]{chapter.1}{Introduction }{}% 1
+\BOOKMARK [0][-]{chapter.2}{Related Work}{}% 2
+\BOOKMARK [0][-]{chapter.3}{Existing System Approach}{}% 3
+\BOOKMARK [1][-]{section.3.1}{Disadvantages}{chapter.3}% 4
+\BOOKMARK [1][-]{section.3.2}{Data Fragmentation}{chapter.3}% 5
+\BOOKMARK [1][-]{section.3.3}{Centrality}{chapter.3}% 6
+\BOOKMARK [2][-]{subsection.3.3.1}{Betweenness Centrality}{section.3.3}% 7
+\BOOKMARK [2][-]{subsection.3.3.2}{Closeness Centrality}{section.3.3}% 8
+\BOOKMARK [2][-]{subsection.3.3.3}{Eccentricity}{section.3.3}% 9
+\BOOKMARK [1][-]{section.3.4}{T-Coloring}{chapter.3}% 10
+\BOOKMARK [0][-]{chapter.4}{Proposed System}{}% 11
+\BOOKMARK [1][-]{section.4.1}{Advantages}{chapter.4}% 12
+\BOOKMARK [0][-]{chapter.5}{ DROPS System Model}{}% 13
+\BOOKMARK [0][-]{chapter.6}{ DROPS Architecture}{}% 14
+\BOOKMARK [1][-]{section.6.1}{Cloud Client}{chapter.6}% 15
+\BOOKMARK [2][-]{subsection.6.1.1}{Data Owner}{section.6.1}% 16
+\BOOKMARK [2][-]{subsection.6.1.2}{Data User}{section.6.1}% 17
+\BOOKMARK [1][-]{section.6.2}{Cloud Server}{chapter.6}% 18
+\BOOKMARK [2][-]{subsection.6.2.1}{Fragmentation}{section.6.2}% 19
+\BOOKMARK [2][-]{subsection.6.2.2}{Replication}{section.6.2}% 20
+\BOOKMARK [2][-]{subsection.6.2.3}{Allocation}{section.6.2}% 21
+\BOOKMARK [1][-]{section.6.3}{Admin}{chapter.6}% 22
+\BOOKMARK [1][-]{section.6.4}{Fragment Placement}{chapter.6}% 23
+\BOOKMARK [1][-]{section.6.5}{Fragment Replication}{chapter.6}% 24
+\BOOKMARK [1][-]{section.6.6}{Replication Time}{chapter.6}% 25
+\BOOKMARK [1][-]{section.6.7}{Features of DROPS}{chapter.6}% 26
+\BOOKMARK [0][-]{chapter.7}{Conclusion and future scope}{}% 27

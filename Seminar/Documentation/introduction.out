@@ -1,0 +1,9 @@
+\BOOKMARK [0][-]{chapter.1}{Introduction}{}% 1
+\BOOKMARK [0][-]{chapter.2}{Selective Internal Radiation Therapy \(SIRT\)}{}% 2
+\BOOKMARK [0][-]{chapter.3}{Methedology}{}% 3
+\BOOKMARK [0][-]{chapter.4}{Design Structure Of The Algorithm}{}% 4
+\BOOKMARK [1][-]{section.4.1}{k-Means Algorithm}{chapter.4}% 5
+\BOOKMARK [1][-]{section.4.2}{Initialization Of The Contouring-Based Segmentation}{chapter.4}% 6
+\BOOKMARK [1][-]{section.4.3}{Localized-Region-Based Active Contouring Algorithm}{chapter.4}% 7
+\BOOKMARK [0][-]{chapter.5}{Need For Parallel Processing}{}% 8
+\BOOKMARK [0][-]{chapter.6}{3D Image Rendering And Experimental Evaluation}{}% 9

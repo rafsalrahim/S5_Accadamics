@@ -1,0 +1,46 @@
+\BOOKMARK [0][-]{chapter.1}{Introduction }{}% 1
+\BOOKMARK [0][-]{chapter.2}{Little about the core technologies}{}% 2
+\BOOKMARK [1][-]{section.2.1}{Internet of Things\(IOT\)}{chapter.2}% 3
+\BOOKMARK [2][-]{subsection.2.1.1}{what do IoT really Means?}{section.2.1}% 4
+\BOOKMARK [2][-]{subsection.2.1.2}{How it works?}{section.2.1}% 5
+\BOOKMARK [2][-]{subsection.2.1.3}{Consumer and enterprise IoT applications}{section.2.1}% 6
+\BOOKMARK [1][-]{section.2.2}{Security Issue and vulnerabilities of IoT}{chapter.2}% 7
+\BOOKMARK [2][-]{subsection.2.2.1}{DDoS attacks}{section.2.2}% 8
+\BOOKMARK [2][-]{subsection.2.2.2}{ Unsecure car apps }{section.2.2}% 9
+\BOOKMARK [2][-]{subsection.2.2.3}{ Insecure default login credentials}{section.2.2}% 10
+\BOOKMARK [2][-]{subsection.2.2.4}{Poor software updates}{section.2.2}% 11
+\BOOKMARK [2][-]{subsection.2.2.5}{The communication isn’t encrypted}{section.2.2}% 12
+\BOOKMARK [2][-]{subsection.2.2.6}{ Insecure user interface}{section.2.2}% 13
+\BOOKMARK [2][-]{subsection.2.2.7}{Poor privacy protection}{section.2.2}% 14
+\BOOKMARK [1][-]{section.2.3}{Blockchain}{chapter.2}% 15
+\BOOKMARK [2][-]{subsection.2.3.1}{Structure of a block}{section.2.3}% 16
+\BOOKMARK [2][-]{subsection.2.3.2}{Block header hash and nodes}{section.2.3}% 17
+\BOOKMARK [2][-]{subsection.2.3.3}{Block height}{section.2.3}% 18
+\BOOKMARK [2][-]{subsection.2.3.4}{Genesis Block}{section.2.3}% 19
+\BOOKMARK [2][-]{subsection.2.3.5}{Proof of Work}{section.2.3}% 20
+\BOOKMARK [2][-]{subsection.2.3.6}{Linking blocks in the blockchain}{section.2.3}% 21
+\BOOKMARK [0][-]{chapter.3}{Existing System Approach}{}% 22
+\BOOKMARK [1][-]{section.3.1}{Disadvantages}{chapter.3}% 23
+\BOOKMARK [1][-]{section.3.2}{Data Fragmentation}{chapter.3}% 24
+\BOOKMARK [1][-]{section.3.3}{Centrality}{chapter.3}% 25
+\BOOKMARK [2][-]{subsection.3.3.1}{Betweenness Centrality}{section.3.3}% 26
+\BOOKMARK [2][-]{subsection.3.3.2}{Closeness Centrality}{section.3.3}% 27
+\BOOKMARK [2][-]{subsection.3.3.3}{Eccentricity}{section.3.3}% 28
+\BOOKMARK [1][-]{section.3.4}{T-Coloring}{chapter.3}% 29
+\BOOKMARK [0][-]{chapter.4}{Proposed System}{}% 30
+\BOOKMARK [1][-]{section.4.1}{Advantages}{chapter.4}% 31
+\BOOKMARK [0][-]{chapter.5}{ DROPS System Model}{}% 32
+\BOOKMARK [0][-]{chapter.6}{ DROPS Architecture}{}% 33
+\BOOKMARK [1][-]{section.6.1}{Cloud Client}{chapter.6}% 34
+\BOOKMARK [2][-]{subsection.6.1.1}{Data Owner}{section.6.1}% 35
+\BOOKMARK [2][-]{subsection.6.1.2}{Data User}{section.6.1}% 36
+\BOOKMARK [1][-]{section.6.2}{Cloud Server}{chapter.6}% 37
+\BOOKMARK [2][-]{subsection.6.2.1}{Fragmentation}{section.6.2}% 38
+\BOOKMARK [2][-]{subsection.6.2.2}{Replication}{section.6.2}% 39
+\BOOKMARK [2][-]{subsection.6.2.3}{Allocation}{section.6.2}% 40
+\BOOKMARK [1][-]{section.6.3}{Admin}{chapter.6}% 41
+\BOOKMARK [1][-]{section.6.4}{Fragment Placement}{chapter.6}% 42
+\BOOKMARK [1][-]{section.6.5}{Fragment Replication}{chapter.6}% 43
+\BOOKMARK [1][-]{section.6.6}{Replication Time}{chapter.6}% 44
+\BOOKMARK [1][-]{section.6.7}{Features of DROPS}{chapter.6}% 45
+\BOOKMARK [0][-]{chapter.7}{Conclusion and future scope}{}% 46
