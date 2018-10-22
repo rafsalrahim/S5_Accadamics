@@ -19,28 +19,25 @@
 \BOOKMARK [2][-]{subsection.2.3.4}{Genesis Block}{section.2.3}% 19
 \BOOKMARK [2][-]{subsection.2.3.5}{Proof of Work}{section.2.3}% 20
 \BOOKMARK [2][-]{subsection.2.3.6}{Linking blocks in the blockchain}{section.2.3}% 21
-\BOOKMARK [0][-]{chapter.3}{Existing System Approach}{}% 22
-\BOOKMARK [1][-]{section.3.1}{Disadvantages}{chapter.3}% 23
-\BOOKMARK [1][-]{section.3.2}{Data Fragmentation}{chapter.3}% 24
-\BOOKMARK [1][-]{section.3.3}{Centrality}{chapter.3}% 25
-\BOOKMARK [2][-]{subsection.3.3.1}{Betweenness Centrality}{section.3.3}% 26
-\BOOKMARK [2][-]{subsection.3.3.2}{Closeness Centrality}{section.3.3}% 27
-\BOOKMARK [2][-]{subsection.3.3.3}{Eccentricity}{section.3.3}% 28
-\BOOKMARK [1][-]{section.3.4}{T-Coloring}{chapter.3}% 29
-\BOOKMARK [0][-]{chapter.4}{Proposed System}{}% 30
-\BOOKMARK [1][-]{section.4.1}{Advantages}{chapter.4}% 31
-\BOOKMARK [0][-]{chapter.5}{ DROPS System Model}{}% 32
-\BOOKMARK [0][-]{chapter.6}{ DROPS Architecture}{}% 33
-\BOOKMARK [1][-]{section.6.1}{Cloud Client}{chapter.6}% 34
-\BOOKMARK [2][-]{subsection.6.1.1}{Data Owner}{section.6.1}% 35
-\BOOKMARK [2][-]{subsection.6.1.2}{Data User}{section.6.1}% 36
-\BOOKMARK [1][-]{section.6.2}{Cloud Server}{chapter.6}% 37
-\BOOKMARK [2][-]{subsection.6.2.1}{Fragmentation}{section.6.2}% 38
-\BOOKMARK [2][-]{subsection.6.2.2}{Replication}{section.6.2}% 39
-\BOOKMARK [2][-]{subsection.6.2.3}{Allocation}{section.6.2}% 40
-\BOOKMARK [1][-]{section.6.3}{Admin}{chapter.6}% 41
-\BOOKMARK [1][-]{section.6.4}{Fragment Placement}{chapter.6}% 42
-\BOOKMARK [1][-]{section.6.5}{Fragment Replication}{chapter.6}% 43
-\BOOKMARK [1][-]{section.6.6}{Replication Time}{chapter.6}% 44
-\BOOKMARK [1][-]{section.6.7}{Features of DROPS}{chapter.6}% 45
-\BOOKMARK [0][-]{chapter.7}{Conclusion and future scope}{}% 46
+\BOOKMARK [2][-]{subsection.2.3.7}{Cryptographic Hash Algorithm}{section.2.3}% 22
+\BOOKMARK [2][-]{subsection.2.3.8}{Modification of Data}{section.2.3}% 23
+\BOOKMARK [0][-]{chapter.3}{Existing System Approach}{}% 24
+\BOOKMARK [1][-]{section.3.1}{Disadvantages}{chapter.3}% 25
+\BOOKMARK [0][-]{chapter.4}{Proposed System}{}% 26
+\BOOKMARK [1][-]{section.4.1}{Combining blockchain and IoT}{chapter.4}% 27
+\BOOKMARK [1][-]{section.4.2}{Advantages}{chapter.4}% 28
+\BOOKMARK [0][-]{chapter.5}{ DROPS System Model}{}% 29
+\BOOKMARK [0][-]{chapter.6}{ DROPS Architecture}{}% 30
+\BOOKMARK [1][-]{section.6.1}{Cloud Client}{chapter.6}% 31
+\BOOKMARK [2][-]{subsection.6.1.1}{Data Owner}{section.6.1}% 32
+\BOOKMARK [2][-]{subsection.6.1.2}{Data User}{section.6.1}% 33
+\BOOKMARK [1][-]{section.6.2}{Cloud Server}{chapter.6}% 34
+\BOOKMARK [2][-]{subsection.6.2.1}{Fragmentation}{section.6.2}% 35
+\BOOKMARK [2][-]{subsection.6.2.2}{Replication}{section.6.2}% 36
+\BOOKMARK [2][-]{subsection.6.2.3}{Allocation}{section.6.2}% 37
+\BOOKMARK [1][-]{section.6.3}{Admin}{chapter.6}% 38
+\BOOKMARK [1][-]{section.6.4}{Fragment Placement}{chapter.6}% 39
+\BOOKMARK [1][-]{section.6.5}{Fragment Replication}{chapter.6}% 40
+\BOOKMARK [1][-]{section.6.6}{Replication Time}{chapter.6}% 41
+\BOOKMARK [1][-]{section.6.7}{Features of DROPS}{chapter.6}% 42
+\BOOKMARK [0][-]{chapter.7}{Conclusion and future scope}{}% 43

@@ -289,121 +289,131 @@ potential mining profits missed.
 \subsection{Linking blocks in the blockchain}
 Nodes maintain a copy of the blockchain locally, starting from the genesis block. The local copy of the blockchain constantly updates as new blocks are discovered and subsequently built on the chain. As a node receives information of incoming blocks from the network, it will validate these blocks first, then link them to the existing blockchain.
 \paragraph{}The process to establish a link is as follows; a node will examine the incoming block header and look for the “previous block hash”. Looking at this incoming block, the node finds the “previous block hash” field, which contains the hash of its parent block. This hash is known to the node previously. Therefore, the node reasons that this new block is a child of the last block on the chain, and is the legitimate extension of the chain. The node adds this new block to the end of the chain, making the blockchain longer with a new height of the incoming block, now validated.
-
+\subsection{Cryptographic Hash Algorithm}
+The blockchain data structure is a back-linked list of blocks of transactions, which is ordered.
+It can be stored as a flat file or in a simple database. Each block is identifiable by a hash,
+generated using the SHA256 cryptographic hash algorithm on the header of the block. Each
+block references a previous block, also known as the parent block, in the previous block hash
+field, in the block header.A hash, also known in long form as cryptographic hash function, is a
+mathematical algorithm that maps data of arbitrary size to a bit string of a fixed size. In the
+case of SHA 256, the result is a string of 32 bytes. The resultant 32 bytes makes it effectively
+impossible to reverse the output, since the function was designed to be a one-way function .
+\paragraph{}The idea behind a hash functions use is to facilitate a thorough means for searching for data
+in a dataset. The most basic form of hash function is any function that can be used to map
+data of arbitrary size to data of fixed size. This output is a bit-string known as the hash value,
+hash sum or hash code. The hash values can be stored in a tabular form known as a hash table
+and is an efficient indexing mechanism; especially useful in search performance. Hash functions
+are collision-free too. That means its impossible to find two messages that hash to the same
+hash value. Therefore, when given a compact hash, one can confirm that it matches a particular
+input datum. Blocks can be identified from their hash, serving two purposes; identification and
+integrity verification.
+\paragraph{}Bitcoin hashing function makes use of the SHA 256, applied twice. It generates an almost-
+unique, fixed size 256-bit (32-byte) hash security. Large classes of hash functions are based on
+a building block of a compression function .Each block contains the hash of its parent inside its
+own header. There lays a chain going all the way back to the first block created, also known as
+the genesis block, linked together by a sequence of hashes. The previous block hash field is inside
+the block header and thereby the current block hash is dependent on the parent block hash.
+The childs own identity changes if the parents identity changes. When the parent is modified in
+any way, the parents hash changes. The parents changed hash necessitates an alteration in the
+previous block hash pointer of the child. This in turn causes the childs hash to mutate, which
+requires a change in the pointer of the grandchild, which in turn alters the grandchild and so on.
+\paragraph{}This cascading effect ensures that, once a block has many generations succeeding it, it cannot
+be changed without consequently forcing a recalculation of all the subsequent blocks. Because
+such a recalculation would require an enormous amount of computation, the existence of a long
+chain of blocks fortifies the Blockchains deep history to be immutable; a key feature of blockchain
+technology security.
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=9cm]{./block_change_hash}
+	\caption{Denial on Data Modification}
+\end{figure}
+\subsection{Modification of Data}
+By design, a blockchain is resistant to modification of the data. It is ”an open, distributed
+ledger that can record transactions between two parties efficiently and in a verifiable and perma-
+nent way”. For use as a distributed ledger, a blockchain is typically managed by a peer-to-peer
+network collectively adhering to a protocol for inter-node communication and validating new
+blocks. Once recorded, the data in any given block cannot be altered retroactively without al-
+teration of all subsequent blocks, which requires consensus of the network majority. Although
+blockchain records are not unalterable, blockchains may be considered secure by design and
+exemplify a distributed computing system with high Byzantine fault tolerance. Decentralized
+consensus has therefore been claimed with a blockchain.
+\paragraph{}Blockchains are incredibly popular nowadays.Here, I have a chain of three blocks. As you can
+see, each block has a hash and a hash of the previous block.So block 3 points to block 2 and
+block 2 points to the block 1. Now the block 1 is special. It is the Genesis block and it cannot
+point to any other block. Now if block 2 is tampered, it changes the hash of the block 2. Now
+the hash in the block 3 becomes invalid as it does not match with the hash in the previous block.
+Computers are very fast and they can calculate hash at a very high speed.
 \chapter{Existing System Approach}
-In existing system data reliability, data availability, and response time are dealt with data replication strategies. However, storing replicas data over a number of nodes increases the attack surface for that particular data.For example, storing m replicas of a file in a cloud instead of one replica increases the probability of a node holding file to be chosen as attack sufferer, from 1/n to m/n where n is the total number of nodes. Existing system was not achieving proper security.
+It relies on centralised, brokered communication models (also known as, client-server paradigm). All devices are identified, authenticated, and connected through cloud servers that sport huge processing and storage capacities. Connection among devices happen exclusively over the internet even if they’re a few feet apart. Also, machine-to-machine (M2M) communication is difficult because there is no single platform that connects all devices no guarantee that cloud services offered by different manufacturers are interoperable and compatible.
+
+\paragraph{}The centralised architecture poses challenges to secure IoT deployments. Handling the enormous volume of existing and projected data is daunting. Managing the inevitable complexities of connecting to a seemingly unlimited list of devices is complicated. And the goal of turning the deluge of data into valuable actions seems impossible because of the many challenges. The existing security technologies will play a role in mitigating IoT risks but they are not enough. The goal is to get data securely to the right place, at the right time, in the right format; it’s easier said than done for many reasons.
+
+\paragraph{}The centralised security model common in the enterprise today will struggle to scale up to meet the demands of the internet of things, or IoT.
 \section{Disadvantages}
+As most IoT networks are currently configured, data isn’t be considered trustworthy until it is vetted and allowed to pass through a single controlling security “gate.” As we saw with the Mirai incidents, a botnet barrage can focus efforts on compromising this lone point through a Distributed Denial of Service (DDNS) attack. Once through the centralized security “gate,” a hacker can access the resources of the entire IoT network. For those familiar with blockchain technology (which we’ll discuss in more detail in relation to the IoT shortly), the disadvantages of the present centralized security approach are obvious, especially when compared to the more secure distributed model found in blockchain technology.
 \begin{itemize}
-	\item   A key factor determining the throughput of a cloud that stores data is the data retrieval time.
-	\item   In large-scale systems, the problems of data reliability, data availability, and response time are dealt with data replication strategies.
-	\item   However, placing replicas data over a number of nodes increases the attack surface for that particular data.
-	\item   Affected on security and performance.  
+	\item[]   \textbf{Online security:} Through something as ubiquitous as a coffee maker (or any of dozens of other devices) attached to a home network, a hacker could enter the system and gain access to ALL the information on ANY network connected device. That means passwords, checking or savings accounts – all the worst parts of identity theft. Following that thread of thought, it would be relatively easy to introduce ransomware or tell devices to stop functioning entirely.
+	\item[] \textbf{Surveillance:} Got security cameras? Many homeowners and businesses do. One glaring weakness of a centralized server is how easy it is for hackers to get into the system and use security cameras to surveil the surroundings. What better way to have your privacy invaded or to case the place for a burglary? Even the remote camera on your vacuum cleaner could be hijacked by those with ill intent. We’re getting into creepy and legitimately dangerous territory here now.
+	\item[] \textbf{ A large enterprise nightmare:} We’ve already mentioned Mirai. One offshoot, Persirai, has been trained to infect 1,250 different types of security cameras. As in the Mirai attack, the resources of a company’s network can be conscripted in support of a global DDNS attack. Since resources are involved in doing the hacker’s criminal bidding, there will be little bandwidth and processing left for legitimate work, slowing operations to a crawl and, oh, by the way, leaving protected company data wide open for stealing.
+	\item[] \textbf{Shut it down:} Sometimes a hacker has no other end in mind than the mischief involved in making another person’s life miserable. There are so many ways to penetrate what passes for security in today’s IoT networks – Man in the Middle, spoofing, cloning, data sinkholes – that a bad actor can sit back and take his or her pick. Once inside, it’s an easy matter to shut down or destroy devices, infect them with malicious code, and make a network permanently unusable. When you might have spent thousands of dollars to create this “smart” home network in the first place, losing it all just because some tech whiz was bored on a Sunday afternoon is likely not your definition of a good time.
 \end{itemize}
-\section{Data Fragmentation}
-The security of a large-scale system, such as cloud depends on the security of the
-system as a whole and the security of individual nodes. A successful intrusion into a single
-node may have severe consequences, not only for data and applications on the victim node,
-but also for the other nodes. The data on the victim node may be revealed fully because
-of the presence of the whole le. A successful intrusion may be a result of some software or
-administrative vulnerability. In case of homogenous systems, the same aw can be utilized
-to target other nodes within the system. The success of an attack on the subsequent nodes
-will require less effort as compared to the effort on the rst node. Comparatively, more effort
-is required for heterogeneous systems. However, compromising a single le will require the
-effort to penetrate only a single node. The amount of compromised data can be reduced by
-making fragments of a data le and storing them on separate nodes. A successful intrusion
-on a single or few nodes will only provide access to a portion of data that might not be of
-any signicance. Moreover, if an attacker is uncertain about the locations of the fragments,
-the probability of nding fragments on all of the nodes is very low. Consider a cloud with
-M nodes and a le with z number of fragments. Let s be the number of successful intrusions
-on distinct nodes,\linebreak
-such that s > z
-\paragraph{}
-The probability that s number of victim nodes contain all of the z sites storing the le
-fragments ( represented by $P(s,z)$ )is given as:
-
-\[
-P(s, z)=
-\frac{
-	\begin{pmatrix}
-	s \\
-	z 
-	\end{pmatrix}
-	\begin{pmatrix}
-	M - s \\
-	s - z
-	\end{pmatrix}
-}{\begin{pmatrix}
-	M \\
-	s
-	\end{pmatrix}}
-\]
-\section{Centrality}
-\paragraph{}
-The centrality of a node in a graph provides the measure of the relative importance
-of a node in the network. The node is important in the network if it:
-\newline (a) interconnects more nodes than others,
-\newline (b) can be reached easily by other nodes, or 
-\newline(c) can reach other nodes easily.
-\paragraph{}
-The objective of improved retrieval time in replication makes the centrality measures
-more important. There are various centrality measures; for instance, closeness centrality,
-degree centrality, betweenness centrality, eccentricity centrality, and eigen- vector centrality.
-Here only elaborate on the closeness, betweenness, and eccentricity centralities because here
-using the aforesaid three centralities in this work.
-\subsection{Betweenness Centrality} 
-\paragraph{}
-The betweenness centrality of a node n is the number of the shortest paths, between
-other nodes, passing through n. Formally, the betweenness centrality of any node v in a
-network is given as:
-
-\[
-C_{b}(\upsilon) = \sum_{ a \ \neq \  \upsilon \ \neq \ b} \frac{\delta_{ab}(\upsilon)}{\delta_{ab}}
-\] 
-
-\subsection{Closeness Centrality}
-\paragraph{}
-A node is said to be closer with respect to all of the other nodes within a network, if
-the sum of the distances from all of the other nodes is lower than the sum of the distances
-of other candidate nodes from all of the other nodes. The lower the sum of distances from
-the other nodes, the more central is the node. Formally, the closeness centrality of a node
-v in a network is dened as:
-\linebreak
-\[
-C_{c}(\upsilon) = \frac{N - 1}{ \sum _{ a \neq \upsilon} d(\upsilon, a)}
-\]
-
-\paragraph{}
-where N is total number of nodes in a network and d(v,a)represents the distance between
-node v and node a.
-\subsection{Eccentricity}
-\paragraph{}
-The eccentricity of a node n is the maximum distance to any node from a node n. A
-node is more central in the network, if it is less eccentric. Formally, the eccentricity can be
-given as:
-$$ E(\upsilon_{a}) = max _{b} \ d(\upsilon_{a},\upsilon_{b}) $$
-\section{T-Coloring}
-\paragraph{}
-Consider a graph G=(V,E)and a set T containing non-negative integers including 0.
-The T- coloring is a mapping function f from the vertices of V to the set of non-negative
-integers, such that f(x)- f(y) is not an element of T, where(x,y) is an element of E. The
-mapping function f assigns a color to a vertex. In simple words, the distance between the
-colors of the adjacent vertices must not belong to T. Formulated by Hale, the T-coloring
-problem for channel assignment assigns channels to the nodes, such that the channels are
-separated by a distance to avoid interference.
-
 \chapter{Proposed System}
-The proposed system called DROPS(Division and Replication of Data in Cloud for Optimal Performance and Security) jointly approaches the security and performance issues. The proposed DROPS scheme ensures that even in the case of a successful attack, no meaningful information is disclosed to the attacker. The DROPS technique doses not depend on traditional cryptographic techniques for data security. The non-cryptographic nature of the proposed scheme makes it faster to perform the required operations (placement and retrieval) on the data. It make sure a controlled replication of the file fragments,
-where each of the fragments is replicated only once for the purpose of improved security.
-A cloud storage security scheme jointly deals with the security and performance in terms
-of retrieval time.
+Blockchain technology can be used in tracking billions of connected devices, enable the processing of transactions and coordination between devices; allow for significant savings to IoT industry manufacturers. This decentralised approach would eliminate single points of failure, creating a more resilient ecosystem for devices to run on. The cryptographic algorithms used by blockchains, would make consumer data more private.
+
+The ledger is tamper-proof and cannot be manipulated by malicious actors because it doesn’t exist in any single location, and man-in-the-middle attacks cannot be staged because there is no single thread of communication that can be intercepted. Blockchain makes trustless, peer-to-peer messaging possible and has already proven its worth in the world of financial services through cryptocurrencies such as Bitcoin, providing guaranteed peer-to-peer payment services without the need for third-party brokers.
+
+The decentralized, autonomous, and trustless capabilities of the blockchain make it an ideal component to become a fundamental element of IoT solutions. It is not a surprise that enterprise IoT technologies have quickly become one of the early adopters of blockchain technologies.
+
+In an IoT network, the blockchain can keep an immutable record of the history of smart devices. This feature enables the autonomous functioning of smart devices without the need for centralized authority. As a result, the blockchain opens the door to a series of IoT scenarios that were remarkably difficult, or even impossible to implement without it.
+
+By leveraging the blockchain, IoT solutions can enable secure, trustless messaging between devices in an IoT network. In this model, the blockchain will treat message exchanges between devices similar to financial transactions in a bitcoin network. To enable message exchanges, devices will leverage smart contracts which then model the agreement between the two parties.
+
+One of the most exciting capabilities of the blockchain is the ability to maintain a duly decentralised, trusted ledger of all transactions occurring in a network. This capability is essential to enable the many compliance and regulatory requirements of industrial IoT applications without the need to rely on a centralised model.
+
+\section{Combining blockchain and IoT}
+There are several clear advantages to the idea of building smart machines able to communicate and operate via blockchain.
+
+Firstly, there is the issue of oversight. With data transactions taking place between multiple networks owned and administered by multiple organizations, a permanent, immutable record means custodianship can be tracked as data, or physical goods, pass between points in the supply chain. Blockchain records are by their very nature transparent — activity can be tracked and analyzed by anyone authorized to connect to the network.
+
+If something goes wrong, breakages occur, data leaks where it shouldn’t, then the blockchain record makes it simple to identify the weak link and, hopefully, take remedial action.
+
+Secondly, the use of encryption and distributed storage means that data can be trusted by all parties involved in the supply chain. Machines will record, securely, details of transactions that take place between themselves, with no human oversight.
+
+Without the private keys giving write-access to the blockchain (which in this case would be held by machines), no human will be able to overwrite the record with inaccurate information.
+
+Thirdly, the “smart contract” facilities provided by some blockchain networks, such as Ethereum, allow the creation of agreements which will be executed when conditions are met. This is likely to be highly useful when it comes to, for example, authorizing one system to make a payment, when conditions indicate that delivery of a service has been provided.
+
+Fourthly, blockchain offers the potential of greatly improving the overall security of the IoT environment. Much of the data generated by IoT is highly personal — for example, smart home devices have access to intimate details about our lives and daily routines. This is data that needs to be shared with other machines and services in order to be useful to us. But it also means there are far more openings for hackers to potentially attack us. Business and governments invested in IoT also have to contend with this increased scope for a data breach by criminals, rivals or foreign enemies.
+
+Above the fact that it will offer new opportunities, it is even possible that blockchain and IoT convergence will become a necessity at some point. If the current IoT paradigm — devices connected via a centralized cloud storage and processing service — continues, then systems are likely to become increasingly bloated, as data volumes, as well as the number of connected devices, continue to increase.
+
+These cloud services are likely to become bottlenecks as the amount of data pumped through them increases. Blockchains can remedy this thanks to their distributed nature. Rather than an expensive, centralized data center, a blockchain data storage network is duplicated across the hundreds (or potentially thousands, or millions) of computers and devices which make up the network. This huge amount of redundancy means data will always be close at hand when it’s needed, cutting down transfer times and meaning one server failure will be of no consequence to business activity.
+
 \section{Advantages}
+Four ways IoT can exploit blockchain technology:
+\begin{enumerate}
+\item Trust building
+\item Cost reduction
+\item Accelerated data exchanges
+\item Scaled security
+\end{enumerate}
+Here are some ways the distributed architecture of blockchain can help solve many of these security and trust challenges:
 \begin{itemize}
-	\item  Improve security.
-	\item  Improve performance. 
-	\item  No information is revealed to the attacker. (If an attacker is uncertain about the locations of the fragments, the probability of finding fragments on all of the nodes is very low.)
-	\item  No load on single node of cloud.
-	\item  Numbers of fragments are decided according to owner’s choice.
+\item Blockchain can be used to track the sensor data measurements and prevent duplication with any other malicious data.
+
+\item Deployments of IoT devices can be complex, and a distributed ledger is well suited to provide IoT device identification, authentication and seamless secure data transfer.
+
+\item Instead of going through a third party for establishing trust, IoT sensors can exchange data through a blockchain.
+
+\item A distributed ledger eliminates a single source of failure within the ecosystem, protecting a IOT device data from tampering.
+
+\item Blockchain enables device autonomy (smart contract), individual identity, integrity of data and supports peer to peer communication by removing technical bottlenecks and inefficiencies.
+
+\item The deployment and operation costs of IoT can be reduced through blockchain since there is no intermediary.
+
+\item IoT devices are directly addressable with blockchain, providing a history of connected devices for troubleshooting purposes.
 \end{itemize}
+
 \chapter{ DROPS System Model}
 \paragraph{}
 A cloud that consists of M nodes, each with its own storage capacity. Let Si represents
