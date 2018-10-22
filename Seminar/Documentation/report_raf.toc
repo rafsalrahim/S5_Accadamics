@@ -65,23 +65,35 @@
 \contentsline {paragraph}{}{16}{section*.44}
 \contentsline {paragraph}{}{16}{section*.45}
 \contentsline {section}{\numberline {3.1}Disadvantages}{16}{section.3.1}
-\contentsline {chapter}{\numberline {4}Proposed System}{19}{chapter.4}
-\contentsline {section}{\numberline {4.1}Combining blockchain and IoT}{20}{section.4.1}
-\contentsline {section}{\numberline {4.2}Advantages}{21}{section.4.2}
-\contentsline {chapter}{\numberline {5} DROPS System Model}{23}{chapter.5}
-\contentsline {paragraph}{}{23}{section*.46}
-\contentsline {chapter}{\numberline {6} DROPS Architecture}{26}{chapter.6}
-\contentsline {section}{\numberline {6.1}Cloud Client}{26}{section.6.1}
-\contentsline {subsection}{\numberline {6.1.1}Data Owner}{26}{subsection.6.1.1}
-\contentsline {subsection}{\numberline {6.1.2}Data User}{26}{subsection.6.1.2}
-\contentsline {section}{\numberline {6.2}Cloud Server}{26}{section.6.2}
-\contentsline {subsection}{\numberline {6.2.1}Fragmentation}{26}{subsection.6.2.1}
-\contentsline {subsection}{\numberline {6.2.2}Replication}{27}{subsection.6.2.2}
-\contentsline {subsection}{\numberline {6.2.3}Allocation}{27}{subsection.6.2.3}
-\contentsline {section}{\numberline {6.3}Admin}{27}{section.6.3}
-\contentsline {section}{\numberline {6.4}Fragment Placement}{27}{section.6.4}
-\contentsline {section}{\numberline {6.5}Fragment Replication}{28}{section.6.5}
-\contentsline {section}{\numberline {6.6}Replication Time}{29}{section.6.6}
-\contentsline {section}{\numberline {6.7}Features of DROPS}{30}{section.6.7}
-\contentsline {chapter}{\numberline {7}Conclusion and future scope}{31}{chapter.7}
-\contentsline {paragraph}{}{31}{section*.61}
+\contentsline {chapter}{\numberline {4}Proposed System}{18}{chapter.4}
+\contentsline {paragraph}{}{18}{section*.46}
+\contentsline {paragraph}{}{18}{section*.47}
+\contentsline {paragraph}{}{18}{section*.48}
+\contentsline {paragraph}{}{19}{section*.49}
+\contentsline {paragraph}{}{19}{section*.50}
+\contentsline {section}{\numberline {4.1}Combining blockchain and IoT}{19}{section.4.1}
+\contentsline {paragraph}{}{19}{section*.51}
+\contentsline {paragraph}{}{19}{section*.52}
+\contentsline {paragraph}{}{19}{section*.53}
+\contentsline {paragraph}{}{19}{section*.54}
+\contentsline {paragraph}{}{19}{section*.55}
+\contentsline {paragraph}{}{20}{section*.56}
+\contentsline {paragraph}{}{20}{section*.57}
+\contentsline {paragraph}{}{20}{section*.58}
+\contentsline {section}{\numberline {4.2}Advantages}{20}{section.4.2}
+\contentsline {chapter}{\numberline {5} Trusted Requirements}{22}{chapter.5}
+\contentsline {chapter}{\numberline {6} DROPS Architecture}{24}{chapter.6}
+\contentsline {section}{\numberline {6.1}Cloud Client}{24}{section.6.1}
+\contentsline {subsection}{\numberline {6.1.1}Data Owner}{24}{subsection.6.1.1}
+\contentsline {subsection}{\numberline {6.1.2}Data User}{24}{subsection.6.1.2}
+\contentsline {section}{\numberline {6.2}Cloud Server}{24}{section.6.2}
+\contentsline {subsection}{\numberline {6.2.1}Fragmentation}{24}{subsection.6.2.1}
+\contentsline {subsection}{\numberline {6.2.2}Replication}{25}{subsection.6.2.2}
+\contentsline {subsection}{\numberline {6.2.3}Allocation}{25}{subsection.6.2.3}
+\contentsline {section}{\numberline {6.3}Admin}{25}{section.6.3}
+\contentsline {section}{\numberline {6.4}Fragment Placement}{25}{section.6.4}
+\contentsline {section}{\numberline {6.5}Fragment Replication}{26}{section.6.5}
+\contentsline {section}{\numberline {6.6}Replication Time}{27}{section.6.6}
+\contentsline {section}{\numberline {6.7}Features of DROPS}{28}{section.6.7}
+\contentsline {chapter}{\numberline {7}Conclusion and future scope}{29}{chapter.7}
+\contentsline {paragraph}{}{29}{section*.71}
